@@ -1,67 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PokéBinder</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokéBinder</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="px-4 py-5 my-5 text-center " id="home">
-        <img class="d-block mx-auto mb-4" src="pokeball.png" alt="" width="72" height="72">
-        <h1 class="display-5 fw-bold text-body-emphasis">PokéBinder</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Organize de maneira fácil e elegante a sua coleção de Pokémon TCG.</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3" > <a class="blue" href="#details">Sobre o App</a></button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4"> <a class ="gray" href="#team"> Equipe </a> </button>
-          </div>
-        </div>
-    </div>
-
-    <div class="divider"></div>
-    
-    <div class="px-4 pt-5 my-5 text-center border-bottom" id="goals">
-        <h1 class="display-4 fw-bold text-body-emphasis">Objetivos </h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4"> valor entregue ...</p>
-        </div>
-        <div class="overflow-hidden" style="max-height: 30vh;">
-          <div class="container px-5">
-            <img src="cards.jpeg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
-          </div>
-        </div>
-    </div>
-
-    <div class="divider"></div>
-
-    <div class="container col-xxl-8 px-4 py-5" id="details">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="hand.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-          </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Sobre o App</h1>
-            <p class="lead"> descrição informal ... </p>
-          </div>
-        </div>
+  <div class="px-4 py-5 my-5 text-center " id="home">
+    <img class="d-block mx-auto mb-4" src="pokeball.png" alt="" width="72" height="72">
+    <h1 class="display-5 fw-bold text-body-emphasis">PokéBinder</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Organize de maneira fácil e elegante a sua coleção de Pokémon TCG.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3"> <a class="blue" href="#goals">Objetivos</a></button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4"> <a class="gray" href="#team"> Equipe </a>
+        </button>
       </div>
-
-      <div class="divider"></div>
-
-      <div class="px-4 py-5 my-5 text-center" id="team">
-        <img class="d-block mx-auto mb-4" src="snorlax.png" alt="" width="72" height="72">
-        <h1 class="display-5 fw-bold text-body-emphasis">Sobre</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mt-5"> Trabalho da disciplina Engenharia de Software EEL873 2023/2. </p>
-          <p class="lead"> <strong> Grupo X - Integrantes: </strong> Fernanda, Gustavo, Igor e Lucas </p>
-        </div>
     </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="goals">
+    <h1 class="display-4 fw-bold text-body-emphasis">Objetivos </h1>
+    <div class="col-lg-6 mx-auto">
+      <div class="container mt-4 mb-4">
+        <p class="lead"><strong>
+            O aplicativo fundamenta-se na pirâmide de valor "Business to Customer", proporcionando ao usuário final
+            valor FUNCIONAL:
+        </p>
+        <ul class="lead">
+          <li><strong>ORGANIZAR</strong> sua coleção de forma prática e intuitiva, facilitando a visualização e gestão
+            das
+            cartas;</li>
+          <li><strong>SIMPLIFICAR</strong> o manejo da coleção ao centralizar diversas informações em uma única
+            plataforma;
+          </li>
+          <li><strong>ECONOMIZAR TEMPO</strong>, evitando que o usuário precise vasculhar por pilhas de cartas ou
+            consultar
+            diversas fontes para encontrar informações específicas.</li>
+        </ul>
+      </div>
+      <div class="container mt-5">
+        <p class="lead">
+          <strong>Além de agregar valor EMOCIONAL</strong>:
+        </p>
+        <ul class="lead">
+          <li><strong>ENTRETENIMENTO</strong> gerado pela exploração de cartas de forma interativa e rica em detalhes,
+            impulsionada pela lista de desejos e a integração com ferramentas de construção de decks.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="cards.jpeg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700"
+          height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="container col-xxl-8 px-4 py-5" id="details">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="hand.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
+          loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Sobre o App</h1>
+        <p class="lead text-justify">
+          O projeto definido como objeto de estudo da disciplina de Engenharia de Software será uma
+          plataforma de gerenciamento de coleção para jogadores de “Pokémon Trading Card Game”. Trata-se
+          de um jogo baseado no gerenciamento de um “deck”, um conjunto com número fixo de cartas,
+          utilizado em disputas contra outros jogadores. A plataforma desenvolvida deverá ser capaz de:
+        <ol class="lead">
+          <li> Registrar as cartas do usuário com praticidade;</li>
+          <li>Prover informações sobre cada carta da coleção com riqueza de detalhes, fornecendo dados
+            como tipo, set pertencente, raridade e valor de mercado;</li>
+          <li>Permitir que o usuário registre as condições físicas da carta (nova, seminova, usada, danificada,
+            etc.);</li>
+          <li>Facilitar a navegação entre os itens da coleção através de filtros e busca;</li>
+          <li>Permitir que o usuário crie listas de desejos, com cartas que gostaria de adquirir;</li>
+          <li>Permitir a integração com ferramentas de auxilio à construção de decks.</li>
+        </ol>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="px-4 py-5 my-5 text-center" id="team">
+    <img class="d-block mx-auto mb-4" src="snorlax.png" alt="" width="72" height="72">
+    <h1 class="display-5 fw-bold text-body-emphasis">Equipe</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mt-5"> Trabalho da disciplina Engenharia de Software EEL873 2023/2. </p>
+      <p class="lead"> <strong> Grupo X - Integrantes: </strong> Fernanda, Gustavo, Igor e Lucas </p>
+    </div>
+  </div>
 
 
-<div class="container">
+  <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="col-md-4 d-flex align-items-center">
         <a href="#home" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
@@ -69,13 +115,17 @@
         </a>
         <span class="mb-3 mb-md-0 text-body-secondary">2023 PokéBinder</span>
       </div>
-  
+
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="https://github.com/fernandabottecchia/PokeBinderApp"><img src="github.svg" height="32" width="32"></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://github.com/fernandabottecchia/PokeBinderApp"><img
+              src="github.svg" height="32" width="32"></a></li>
       </ul>
     </footer>
   </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
